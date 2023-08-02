@@ -1,13 +1,19 @@
-body{
+/*Default Presets*/
+*{
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
+/*Others Config*/
+
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url("https://images.pexels.com/photos/8867405/pexels-photo-8867405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1600");
     background-size: cover;
     background-position: center;
     
@@ -27,7 +33,13 @@ body{
 
 }
 
-/*Barra de Navegacion*/
+
+
+
+
+/*Navigation Bar*/
+
+
 .nav_bar {
     width: 100%;
     display: flex;
@@ -51,7 +63,11 @@ body{
 .content h1 {
     font-size: 54px;
 }
-/*Botones de la pagina*/
+
+
+
+
+/*Buttons Config*/
 .navbtn{
     width: 240px;
     height: 48px;
